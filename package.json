@@ -1,0 +1,21 @@
+{
+  "name": "tracklisteasy",
+  "productName": "TrackListEasy",
+  "version": "0.1.0-beta",
+  "description": "Плеер и виджеты для стримов в OBS Studio",
+  "author": "GefHastel",
+  "license": "UNLICENSED",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check main.js && node --check preload.js && node --check renderer.js",
+    "build:win": "electron-packager . TrackListEasy --platform=win32 --arch=x64 --out=release --overwrite --prune --icon=icon.ico --ignore=^/release --ignore=^/\\.git"
+  },
+  "dependencies": {
+    "music-metadata": "^7.14.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.4.4",
+    "electron": "^34.5.8"
+  }
+}
