@@ -1,4 +1,4 @@
-# TrackListEasy![Uploading stream_ava_final.png…]()
+# TrackListEasy!
 
 
 **Стримь как надо!**
